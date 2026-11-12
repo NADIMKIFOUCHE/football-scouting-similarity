@@ -1,0 +1,23 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets (garder .env.example)
+.env
+.streamlit/secrets.toml
+
+# Données téléchargées (StatsBomb) et fichiers générés
+data/
+*.parquet
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Notes perso
+.commit/
+.apprendre/
+
+# Éditeur / système
+.vscode/
+.DS_Store
