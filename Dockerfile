@@ -7,14 +7,8 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /app
 
 # Données StatsBomb, ML, visualisation terrain, appli web
-RUN pip install \
-    pandas \
-    numpy \
-    scikit-learn \
-    statsbombpy \
-    matplotlib \
-    mplsoccer \
-    streamlit
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
 COPY . .
 
