@@ -4,6 +4,8 @@ import pandas as pd
 from statsbombpy import sb
 from statsbombpy.api_client import NoAuthWarning
 
+from src.ball_playing_defender import getMatches
+
 # Pas d'identifiants StatsBomb : normal, on utilise les données gratuites
 warnings.filterwarnings("ignore", category=NoAuthWarning)
 
@@ -13,7 +15,7 @@ pd.set_option("display.max_columns", None)
 pd.set_option("display.width", None)
 
 competitions = sb.competitions()                              # toutes les compétitions dispo
-matches_l1_2015_2016 = sb.matches(competition_id=7, season_id=27).sort_values(by="match_date")     # ton lien : matches/7/27.json
+matches_l1_2015_2016 = getMatches(7, 27)     # ton lien : matches/7/27.json
 events_l1_2015_2016 = sb.events(match_id=matches_l1_2015_2016.match_id.iloc[0])                        # toutes les actions d'un match
 #lineups_l1_2015_2016 = sb.lineups(match_id=...)                       # compositions
 #print(matches_l1_2015_2016.iloc[1]["match_id"])

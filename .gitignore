@@ -21,3 +21,6 @@ data/
 # Éditeur / système
 .vscode/
 .DS_Store
+
+# CV (données personnelles : téléphone, e-mail)
+cv_*

@@ -5,3 +5,4 @@ statsbombpy==1.22.0
 matplotlib==3.11.2
 mplsoccer==1.8.1
 streamlit==1.67.0
+pyarrow==26.0.1
