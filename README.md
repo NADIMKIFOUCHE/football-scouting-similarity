@@ -1,9 +1,6 @@
 # Défenseur relanceur : trouver les centraux qui défendent et relancent
 
-[![Démo de l'application : recherche d'un joueur, profil en percentiles, classement](docs/apercu.jpg)](docs/demo.mp4)
-
-▶ [Voir la démo en vidéo (2 min)](docs/demo.mp4) : recherche d'un joueur, profils, classement complet.
-/home/nadim/football/docs/demo.mp4
+[/home/nadim/football/docs/demo.mp4](https://github.com/NADIMKIFOUCHE/football-scouting-similarity/issues/2)
 
 Un outil d'aide au recrutement qui classe les défenseurs centraux de Ligue 1 2015/2016 selon une question simple : **qui sait à la fois défendre et relancer proprement ?**
 
