@@ -1,6 +1,6 @@
 # Défenseur relanceur : trouver les centraux qui défendent et relancent
 
-https://github.com/NADIMKIFOUCHE/football-scouting-similarity/issues/2
+https://github.com/user-attachments/assets/db1a3e1c-b6ab-4e70-96c7-69745821487a
 
 Un outil d'aide au recrutement qui classe les défenseurs centraux de Ligue 1 2015/2016 selon une question simple : **qui sait à la fois défendre et relancer proprement ?**
 
